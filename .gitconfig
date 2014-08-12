@@ -12,6 +12,6 @@
 	name = Lewis Nixon
 	email = lewcfn@gmail.com
 [core]
-	editor = atom -w
+	editor = atom --wait
 [push]
 	default = simple
