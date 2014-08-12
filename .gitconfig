@@ -1,0 +1,17 @@
+[alias]
+  co = checkout
+  ci = commit
+  ca = commit -a
+  st = status
+  s  = status
+  br = branch
+  ps = push
+  pl = pull
+  hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+[user]
+	name = Lewis Nixon
+	email = lewcfn@gmail.com
+[core]
+	editor = atom -w
+[push]
+	default = simple
