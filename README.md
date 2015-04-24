@@ -1,4 +1,4 @@
 dotfiles
 ========
 
-All ma' config, bruv
+My ongoing list of configuration files

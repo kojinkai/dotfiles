@@ -8,7 +8,7 @@ ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="ys"
 
 # Example aliases
-alias zshconfig="subl ~/.zshrc"
+alias zshconfig="atom ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # Set to this to use case-sensitive completion
