@@ -44,8 +44,25 @@ plugins=(git npm bower)
 
 source $ZSH/oh-my-zsh.sh
 
-# Customize to your needs...
-export PATH=$PATH:/Users/lewisnixon/.rvm/gems/ruby-2.0.0-p247/bin:/Users/lewisnixon/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/lewisnixon/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/lewisnixon/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:~/bin
+# Customize $PATH to your needs...
+
 
 # Load z for directory jumping
 . /Users/lewisnixon/Code/z.sh
+
+# Load nvm
+. ~/.nvm/nvm.sh
+
+alias l="ls -la"
+alias gs='git status '
+alias gst='git status '
+alias ga='git add '
+alias gb='git branch '
+alias gc='git commit'
+alias gd='git diff'
+alias go='git checkout '
+alias got='git '
+alias get='git '
+alias gurnt='grunt'
+alias gr='grunt'
+alias pyg='pygmentize'
