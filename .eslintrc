@@ -74,7 +74,7 @@
 
     ////////// Best Practices //////////
 
-    "block-scoped-var": ,       // treat var statements as if they were block scoped (off by default)
+    "block-scoped-var": 2,       // treat var statements as if they were block scoped (off by default)
     "complexity": ["error", {
         "max": 3
     }],                         // specify the maximum cyclomatic complexity allowed in a program (off by default)
