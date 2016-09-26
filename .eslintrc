@@ -45,7 +45,7 @@
 
     // 0 = 'off', 1 = 'warn', 2 = 'error';
 
-    "no-comma-dangle": 2,         // disallow trailing commas in object literals
+    "comma-dangle": 2,         // disallow trailing commas in object literals
     "no-cond-assign": 1,          // disallow assignment in conditional expressions
     "no-console": 1,              // disallow use of console (off by default in the node environment)
     "no-constant-condition": 2,   // disallow use of constant expressions in conditions
@@ -56,7 +56,7 @@
     "no-empty-character-class": 2,// disallow the use of empty character classes in regular expressions
     "no-ex-assign": 2,            // disallow assigning to the exception in a catch block
     "no-extra-boolean-cast": 1,   // disallow double-negation boolean casts in a boolean context
-    "no-extra-parens": 1,         // disallow unnecessary parentheses (off by default)
+    "no-extra-parens": 0,         // disallow unnecessary parentheses (off by default)
     "no-extra-semi": 2,           // disallow unnecessary semicolons
     "no-func-assign": 2,          // disallow overwriting functions written as function declarations
     "no-inner-declarations": 2,   // disallow function or variable declarations in nested blocks
@@ -119,7 +119,7 @@
     "no-warning-comments": 0,   // disallow usage of configurable warning terms in comments, e.g. TODO or FIXME (off by default)
     "no-with": 0,               // disallow use of the with statement
     "radix": 2,                 // require use of the second argument for parseInt() (off by default)
-    "vars-on-top": 2,           // requires to declare all vars on top of their containing scope (off by default)
+    "vars-on-top": 0,           // requires to declare all vars on top of their containing scope (off by default)
     "wrap-iife": 0,             // require immediate function invocation to be wrapped in parentheses (off by default)
     "yoda": 1,                  // require or disallow Yoda conditions
 
@@ -202,9 +202,12 @@
         "error", "never"
     ],                                      // require a space after function names (off by default)
     "keyword-spacing": 2,                   // require a space after certain keywords (off by default)
+    "lines-around-comment": ["error", {
+        "beforeBlockComment": true
+    }],                                     // require empty lines around comments     
     "space-before-blocks": 2,               // require or disallow space before blocks (off by default)
     "object-curly-spacing": [
-        "error", "always"
+        "error", "never"
     ],
     "array-bracket-spacing": [
         "error", "never"
